@@ -60,5 +60,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you have any questions or feedback, feel free to reach out:
 
 - **Author**: Haidar Raza
-- **Email**: [haidarraza843426@gamil.com](haidarraza843426@gamil.com)
+- **Email**: [haidarraza843426@gmail.com](haidarraza843426@gmail.com)
 
