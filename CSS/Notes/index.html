@@ -1,46 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
         /*What is CSS*/
-        .first_css_example{
+        .first_css_example {
             background-color: aquamarine;
             border-radius: 10px;
         }
-        .first_css_example h1{
+
+        .first_css_example h1 {
             color: brown;
             text-align: center;
             font-style: italic;
         }
-        .first_css_example p{
+
+        .first_css_example p {
             color: rgb(130, 25, 25);
             text-align: justify;
             margin: 10px;
         }
+
+        /*syntax*/
+        .syntax {
+            background-color: antiquewhite;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .syntax h1 {
+            color: blue;
+            font-size: 24px;
+        }
+
+        .syntax p {
+            color: rgb(19, 19, 17);
+            font-size: 20px;
+        }
     </style>
 </head>
+
 <body>
     <!--What is CSS-->
     <h1>What is CSS</h1>
     <p>
-        <ul>
-            <li>CSS stands for Cascading Style Sheets.</li>
-            <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media.</li>
-            <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once.</li>
-            <li>SS is the language we use to style a Web page.</li>
-        </ul>
+    <ul>
+        <li>CSS stands for Cascading Style Sheets.</li>
+        <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media.</li>
+        <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once.</li>
+        <li>CSS is the language we use to style a Web page.</li>
+    </ul>
     </p>
 
     <h2>Example of CSS</h2>
     <div class="first_css_example">
         <h1>What is CSS?</h1>
-        <p>CSS (Cascading Style Sheets) is a stylesheet language used to control the visual presentation of web pages by applying styles to HTML elements, such as colors, fonts, and layouts. It separates content from design, allowing for easier maintenance and responsive web design, where styles adapt to different devices and screen sizes. CSS works through a cascading system, where multiple styles can be applied and overridden based on their specificity and order.1</p>
+        <p>CSS (Cascading Style Sheets) is a stylesheet language used to control the visual presentation of web pages by
+            applying styles to HTML elements, such as colors, fonts, and layouts. It separates content from design,
+            allowing for easier maintenance and responsive web design, where styles adapt to different devices and
+            screen sizes. CSS works through a cascading system, where multiple styles can be applied and overridden
+            based on their specificity and order.1</p>
     </div>
 
     <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">More...</a>
     <hr>
+
+    <!--Syntax of CSS-->
+    <h1>Syntax of CSS</h1>
+    <pre>
+        selector {
+            property: value;
+            property: value;
+          }
+    </pre>
+    <p>
+    <ul>
+        <li>CSS syntax consists of selectors and declaration blocks.</li>
+        <li>A selector targets the HTML element(s) you want to style, while the declaration block contains one or more
+            declarations that define the styles to be applied.</li>
+        <li>Each declaration includes a property and a value, separated by a colon and ended with a semicolon. The
+            entire declaration block is enclosed in curly braces {}.</li>
+    </ul>
+    </p>
+
+    <h2>Examples</h2>
+    <div class="syntax">
+        <h1>What is Syntax</h1>
+        <p>CSS syntax consists of selectors and declaration blocks.</p>
+    </div>
+    <p>In this example, the syntax h1 selector targets all
+    <h1> elements in the HTML, setting their text color to blue and font size to 24 pixels.</p>
+
+    <hr>
+
 </body>
+
 </html>
