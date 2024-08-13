@@ -1,0 +1,96 @@
+<!--Problems:
+1. Create a page with header, footer, main(section, article, aside tag).
+2. Make sure the project from level3 has correct folder structure.
+3. Create groupings of multiple tags using div.
+4. Create navigation to important sections of your page.-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and Project structure</title>
+    <style>
+        .link {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        h1 {
+            text-align: center;
+            color: blue;
+        }
+
+        p {
+            margin: 0px 50px 0px 50px;
+            text-align: inherit;
+        }
+
+        img {
+            margin-top: 20px;
+        }
+
+        .footer {
+            background-color: blue;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .footer_link ul {
+            display: flex;
+            justify-content: space-evenly;
+            list-style: none;
+            text-decoration: none;
+
+        }
+
+        .footer_link a {
+            color: white;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="link">
+                <a href="#">About Us</a>
+                <a href="#">Academics</a>
+                <a href="#">Faculty</a>
+                <a href="#">Research</a>
+                <a href="#">Placements</a>
+                <a href="#">News</a>
+                <a href="#">APPLY NOW</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>About Gyan Vihar University</h1>
+        <p>Vision: To become a globally renowned center of excellence that transforms generations through its
+            commitment to innovations in education, research, entrepreneurship, critical thinking and scientific
+            temperament.
+        </p>
+        <img src="image/footer_logo.png" alt="college_image">
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="image">
+                <img src="image/footer_logo.png" alt="footer_logo">
+            </div>
+            <div class="footer_link">
+                <ul>
+                    <li><a href="#">Gyan Vihar Home</a></li>
+                    <li><a href="#">Maps & Direction</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <p>©Copyright Gyan Vihar University. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
