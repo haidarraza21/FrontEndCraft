@@ -5,3 +5,68 @@
 4. Create a div,pargraph and heading and use id selector, element selector and class selectorfor them.
 5. Create two divs with id first and second and define color for both using group selector.
 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS basic</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /*internal style for #heading*/
+        #heading{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <!--1. Create a heading and set the text color red.-->
+    <h1>Basic of CSS</h1>
+
+    <!--2. Create a div with id #heading, include CSS using all 3 ways line, style tag and external, and observe priority.-->
+    <div id="heading"  style="color: brown;">  <!-- Inline Style -->
+        <h2>What is CSS</h2>
+        <p>CSS (Cascading Style Sheets) is a stylesheet language used to control the visual presentation of web pages by applying styles to HTML elements, such as colors, fonts, and layouts. It separates content from design, allowing for easier maintenance and responsive web design, where styles adapt to different devices and screen sizes. CSS works through a cascading system, where multiple styles can be applied and overridden based on their specificity and order.</p>
+
+    </div>
+    <!--The observation of 3 ways of styling higher priority is inline style the internal style the externat style-->
+
+    <!--4. Create a div,pargraph and heading and use id selector, element selector and class selector for them.-->
+
+    <div>
+        <h1 id="selector_heading">Selector in CSS</h1>
+        <p class="selector_text">In CSS, a selector is used to target HTML elements on a web page that you want to style. The selector is the first part of a CSS rule and determines which HTML element(s) the style rules will apply to.</p>
+        <h1>Types of selectors</h1>
+        <p>
+            <ul>
+                <li>Element Selector:</li>
+                <li>Class Selector:</li>
+                <li>Class Selector:</li>
+                <li>ID Selector:</li>
+                <li>Universal Selector:</li>
+                <li>Attribute Selector:</li>
+                <li>Descendant Selector:</li>
+                <li>Child Selector:</li>
+                <li>Adjacent Sibling Selector:</li>
+                <li>Pseudo-Class Selector:</li>
+                <li>Pseudo-Element Selector:</li>
+            </ul>
+        </p>
+    </div>
+
+
+    <!--5. Create two divs with id first and second and define color for both using group selector.-->
+
+    <div id="first">
+        The id global attribute defines an identifier (ID) which must be unique in the whole document.
+    </div>
+    <div id="second">
+        The class global attribute is a list of the classes of the element, separated by ACSII whitespace.
+    </div>
+
+
+
+
+</body>
+</html>

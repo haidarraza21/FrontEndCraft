@@ -1,0 +1,30 @@
+/*Create a heading and set the text color red.*/
+h1{
+    color: red;
+}
+#heading{
+    color: blue;
+}
+/*The observation of 3 ways of styling higher priority is inline style the internal style the externat style*/
+#selector_heading{  /*ID Selector*/
+    color: chocolate;
+    font-size: 24px;
+    text-align: center;
+    font-style: italic;
+}
+ul{   /*Element Selector*/
+    color: blue;
+    list-style: none;
+    font-style: italic;
+}
+.selector_text{ /*Class Selector*/
+    color: darkmagenta;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#first, #second {
+    background-color: lightblue;
+    padding: 20px;
+    border: 2px solid #000;
+  }
