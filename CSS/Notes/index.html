@@ -5,42 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        /*What is CSS*/
-        .first_css_example {
-            background-color: aquamarine;
-            border-radius: 10px;
-        }
-
-        .first_css_example h1 {
-            color: brown;
-            text-align: center;
-            font-style: italic;
-        }
-
-        .first_css_example p {
-            color: rgb(130, 25, 25);
-            text-align: justify;
-            margin: 10px;
-        }
-
-        /*syntax*/
-        .syntax {
-            background-color: antiquewhite;
-            border-radius: 10px;
-            text-align: center;
-        }
-
-        .syntax h1 {
-            color: blue;
-            font-size: 24px;
-        }
-
-        .syntax p {
-            color: rgb(19, 19, 17);
-            font-size: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -91,10 +56,40 @@
         <h1>What is Syntax</h1>
         <p>CSS syntax consists of selectors and declaration blocks.</p>
     </div>
-    <p>In this example, the syntax h1 selector targets all
-    <h1> elements in the HTML, setting their text color to blue and font size to 24 pixels.</p>
+     <hr>
 
-    <hr>
+
+     <!--CSS Selectors-->
+     <h1>CSS Selectors</h1>
+     <p>A selector in CSS is a pattern used to target and apply styles to specific HTML elements. It determines which elements in the HTML document will be affected by the corresponding style rules. There are various types of selectors, such as element selectors (e.g., p for paragraphs), class selectors (e.g., .classname for elements with a specific class), ID selectors (e.g., #idname for a single element with a specific ID), and more complex ones like attribute selectors, pseudo-classes, and descendant selectors, allowing for precise and flexible styling across web pages.</p>
+
+     <h2>Types of CSS Selectors</h2>
+     <p>
+        <ul>
+            <li>Universal Selector: </li>
+            <li>Element Selector:</li>
+            <li>Class Selector:</li>
+            <li>Class Selector:</li>
+            <li>ID Selector:</li>
+            <li>Universal Selector:</li>
+            <li>Attribute Selector:</li>
+            <li>Descendant Selector:</li>
+            <li>Child Selector:</li>
+            <li>Adjacent Sibling Selector:</li>
+            <li>Pseudo-Class Selector:</li>
+            <li>Pseudo-Element Selector:</li>
+        </ul>
+    </p>
+
+    <h2>Examples of Selectors</h2>
+    <p>
+        Universal Selector (*): Targets all elements in the document.
+    </p>
+    <p>Type Selector (Element Selector): Targets all instances of a specific element.</p>
+    <div class="class">Class Selector (.classname): Targets elements with a specific class attribute.</div>
+    <div class="id">ID Selector (#idname): Targets a single element with a specific ID attribute.</div>
+
+
 
 </body>
 

@@ -1,0 +1,50 @@
+/*What is CSS*/
+.first_css_example {
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+.first_css_example h1 {
+    color: brown;
+    text-align: center;
+    font-style: italic;
+}
+
+.first_css_example p {
+    color: rgb(130, 25, 25);
+    text-align: justify;
+    margin: 10px;
+}
+
+/*syntax*/
+.syntax {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.syntax h1 {
+    color: blue;
+    font-size: 24px;
+}
+
+.syntax p {
+    color: rgb(19, 19, 17);
+    font-size: 20px;
+}
+/*Selector*/
+*{    /*Universal Selector*/
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+h1{ /*Element Selector*/
+    color: brown;
+    font-size: 24px;
+}
+.class{  /*Class Selector*/
+    color: red;
+}
+#id{  /*ID Selector*/
+    color: blue;
+}
