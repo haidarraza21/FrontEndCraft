@@ -1,0 +1,169 @@
+<!--Problems:
+1. Create a page with all types of ordered list and one unordered list.
+2. Create a table with headings, captions and a few row. One of heading should be take at leasr 3 columns.
+3. Create a contact me form with relevant deatils for your resume website.
+4. Use iFrame to add this video to your page.-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List, Tables & Forms</title>
+</head>
+
+<body>
+    <!--Ordered list with numeric-->
+    <ol type="1">
+        <caption>Best Fruits</caption>
+        <li>Avocados</li>
+        <li>Watermelon</li>
+        <li>Tomatoes</li>
+        <li>Bananas</li>
+        <li>Blackberries</li>
+        <li>Raspberries</li>
+    </ol>
+    <hr>
+
+    <!--Ordered list with Uppercase latter-->
+    <ol type="A">
+        <caption>Best Games</caption>
+        <li>HearthStone</li>
+        <li>Fortnite Battle Royale</li>
+        <li>Apex Legends</li>
+        <li>Minecraft</li>
+        <li>PUBG</li>
+    </ol>
+    <hr>
+
+    <!--Ordered list with Lowercase latter-->
+    <ol type="a">
+        <caption>Best Language</caption>
+        <li>C</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>PHP</li>
+    </ol>
+    <hr>
+
+    <!--Ordered list with Uppercase Roman-->
+    <ol type="I">
+        <caption>Best Muslim Boy Names</caption>
+        <li>Muhammad</li>
+        <li>Ali</li>
+        <li>Abu Bakar</li>
+        <li>Umar</li>
+        <li>Usman</li>
+    </ol>
+    <hr>
+
+    <!--Ordered list with Lowercase Roman-->
+    <ol type="i">
+        <caption>Metals</caption>
+        <li>H</li>
+        <li>Li</li>
+        <li>Java</li>
+        <li>Na</li>
+        <li>K</li>
+    </ol>
+    <hr>
+
+    <!--Unordered list -->
+    <ul type="a">
+        <caption>College Names</caption>
+        <li>SGVU</li>
+        <li>SKIT</li>
+        <li>DU</li>
+        <li>BHU</li>
+        <li>IIT Patna</li>
+    </ul>
+    <hr>
+
+    <!--Create a table with headings, captions and a few row. One of heading should be take at leasr 3 columns.-->
+
+    <table border="1">
+        <caption>Mid Term Result</caption>
+        <tr>
+            <th colspan="3">These student only pass</th>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <th>SID</th>
+            <th>Result</th>
+        </tr>
+        <tr>
+            <td>Md FArid Ansari</td>
+            <th>100477</th>
+            <th>10/10</th>
+        </tr>
+        <tr>
+            <td>Md Quaiser Ali</td>
+            <th>103334</th>
+            <th>9/10</th>
+        </tr>
+        <tr>
+            <td>Md Asadullah</td>
+            <th>100393</th>
+            <th>9.5/10</th>
+        </tr>
+        <tr>
+            <td>Pintu Kumar</td>
+            <th>100233</th>
+            <th>10/10</th>
+        </tr>
+    </table>
+    <hr>
+
+    <!--Create a contact me form with relevant deatils for your resume website.-->
+    <table>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="87ea5d03-06e7-4138-9c2b-e3ae315b8fba">
+            <table>
+                <tr>
+                    <td>
+                        <label for="name">Name:</label>
+                    </td>
+                    <td>
+                        <input id="name" name="name" type="text" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gmail">Gmail:</label>
+                    </td>
+                    <td>
+                        <input id="gmail" name="gmail" type="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="no">Phone No.:</label>
+                    </td>
+                    <td>
+                        <input id="no" name="no" type="number" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+    </table>
+    <hr>
+
+
+    <!--Use iFrame to add this video to your page.-->
+    <iframe width="300" height="215" src="https://www.youtube.com/embed/rklidcZ-aLU?si=1abZXLR2iYP4PLZV"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe src="https://youtu.be/rklidcZ-aLU?si=oLszTufgvYFIbD1G" width="400" height="300" frameborder="0"></iframe>
+</body>
+
+</html>
