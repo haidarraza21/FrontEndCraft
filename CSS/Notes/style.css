@@ -62,3 +62,18 @@ button{
     color: black;
     background-color: blue;
 }
+/*Height and Width Property */
+.box{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+#first_box{
+    background-color: red;
+}
+#second_box{
+    background-color: blue;
+}
+#third_box{
+    background-color: green;
+}
