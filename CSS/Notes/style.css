@@ -85,3 +85,20 @@ button{
     background-size: contain;
     background-repeat: no-repeat;
 }
+/* Visibility Property */
+.visibility_box{
+    height: 100px;
+    width: 100px;
+}
+#visibility_box1{
+    background-color: red;
+    visibility: hidden;
+}
+#visibility_box2{
+    background-color: green;
+    visibility: visible;
+}
+#visibility_box3{
+    background-color: yellow;
+    visibility: collapse;
+}
