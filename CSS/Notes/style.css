@@ -77,3 +77,11 @@ button{
 #third_box{
     background-color: green;
 }
+/*Background Image Property*/
+#img_box{
+    height: 100px;
+    width:100px;
+    background-image: url(image/logo.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
