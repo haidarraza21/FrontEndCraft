@@ -48,3 +48,17 @@ h1{ /*Element Selector*/
 #id{  /*ID Selector*/
     color: blue;
 }
+
+/*Background Color*/
+#first{
+    color: black;
+    background-color: red;
+}
+.second{
+    color: black;
+    background-color: greenyellow;
+}
+button{
+    color: black;
+    background-color: blue;
+}
