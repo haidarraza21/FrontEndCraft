@@ -133,3 +133,22 @@ button{
     font-size: 24px;
     background: red, url(image/logo.jpeg),no-repeat, right top;
 }
+
+/* text-align */
+.text_align{
+    width: 100px;
+    height: 100px;
+   margin: 20px;
+}
+#align1{
+    background-color: red;
+    text-align: center;
+}
+#align2{
+    background-color: green;
+    text-align: left;
+}
+#align3{
+    background-color: blue;
+    text-align: right;
+}
