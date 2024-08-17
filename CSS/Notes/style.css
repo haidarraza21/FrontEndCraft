@@ -152,3 +152,16 @@ button{
     background-color: blue;
     text-align: right;
 }
+
+/* Text Decoration property */
+#underline_text{
+    text-decoration: underline;
+}#overline_text{
+    text-decoration: overline;
+}
+#lineThrough_text{
+    text-decoration: line-through;
+}
+#no_decoration{
+    text-decoration: none;
+}
