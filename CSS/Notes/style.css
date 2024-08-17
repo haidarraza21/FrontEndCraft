@@ -156,8 +156,10 @@ button{
 /* Text Decoration property */
 #underline_text{
     text-decoration: underline;
+    text-decoration-style: dashed;
 }#overline_text{
     text-decoration: overline;
+    text-decoration-color: red;
 }
 #lineThrough_text{
     text-decoration: line-through;
