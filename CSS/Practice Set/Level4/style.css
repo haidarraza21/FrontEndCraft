@@ -1,0 +1,38 @@
+/* Problems
+1. Create a div with height and width 200px and observe different values in the box model by inspacting
+2. Create a button and give 10px padding to top and buttom and 15px on sides.
+3. Add 100px margin to the button to the button on all sides
+4. Add dotted boarder with color red and so much that the button becomes a circle.
+5. Create two boxes with differnrt box sizing values and observe changes in box model. */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+#box_model{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    margin: 10px;
+}
+#click_me{
+    padding: 10px 15px 10px 15px;
+    margin: 100px;
+    border: 2px dotted red;
+    border-radius: 50%;
+}
+.box_sizing{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    background-color: blueviolet;
+    padding: 20px;
+    border: 2px solid red ;
+}
+#content_box{
+    box-sizing: content-box;
+}
+#border_box{
+    box-sizing: border-box;
+}
