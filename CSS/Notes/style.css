@@ -275,3 +275,32 @@ button{
     height: 50vh;
     width: 50vw;
 }
+
+
+/* Position Property */
+.postion{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin: 10px;
+    background-color: cornflowerblue;
+}
+
+#static{
+    position: static;
+}
+#relative{
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+#absolute{
+    position: absolute;
+    top: 8000px;
+    left: 150px;
+}
+#fixed{
+    position: fixed;
+   top: 8080px;
+    left: 10px;
+}

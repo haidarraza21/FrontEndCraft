@@ -358,6 +358,37 @@
         This is thr vw and vh example
     </div>
 
+    <a href="https://developer.mozilla.org/docs/Web/CSS/display">More</a>
+    <hr>
+
+    <!--Position Property-->
+    <h1>position: static;</h1>
+    <p>Description: This is the default positioning for HTML elements. Elements are positioned according to the normal document flow (top to bottom, left to right). They are not affected by the top, right, bottom, or left properties.</p>
+    <p>Use case: Used when no special positioning is needed.</p>
+
+    <h1>position: relative</h1>
+    <p>Description: The element is positioned relative to its normal position in the document flow. You can move it using the top, right, bottom, and left properties without affecting the layout of surrounding elements.</p>
+    <p>Use case: Useful for moving an element slightly without removing it from the normal document flow.</p>
+
+    <h1>position: absolute;</h1>
+    <p>Description: The element is removed from the normal document flow and positioned relative to its nearest positioned ancestor (i.e., an ancestor with a position other than static). If no such ancestor exists, it's positioned relative to the initial containing block (usually the <html> element).</p>
+    <p>Use case: Commonly used for placing elements at specific positions on the page.</p>
+
+
+    <h1>position: fixed;</h1>
+    <p>Description: The element is positioned relative to the viewport, which means it stays in the same position even when the page is scrolled. It's removed from the normal document flow and does not affect surrounding elements.</p>
+    <p>Use case: Useful for creating sticky headers, footers, or other elements that remain fixed while scrolling.</p>
+
+
+    <h2>Example of position Property:</h2>
+    <div id="static" class="postion">Static</div>
+    <div id="relative" class="postion">Relative</div>
+    <div id="absolute" class="postion">absolute</div>
+    <div id="fixed" class="postion">Fixed</div>
+
+
+
+
     
 
 </body>
