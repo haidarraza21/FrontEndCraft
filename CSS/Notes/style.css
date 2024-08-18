@@ -167,3 +167,28 @@ button{
 #no_decoration{
     text-decoration: none;
 }
+
+
+/* Display Block */
+
+.dispaly_block{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    color: brown;
+    margin: 10px;
+    background-color: blue;
+    border: 2px solid red;
+    border-radius: 10px;
+    display: block;
+}
+
+/* Display Inline */
+.display_inline{
+    color: aqua;
+    font-size: 30px;
+    background-color: blanchedalmond;
+    border: 2px solid red;
+    border-radius: 10px;
+    display: inline;
+}
