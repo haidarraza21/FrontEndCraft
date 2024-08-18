@@ -1,3 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    font-size: 25px;
+} */
+
+
 /*What is CSS*/
 .first_css_example {
     background-color: aquamarine;
@@ -247,4 +256,22 @@ button{
     background-color: blue;
     height: 50%;
     width: 60%;
+}
+/* Relative rem Unit */
+#rem_unit_upper{
+    height: 200px;
+    width: 400px;
+    background-color: brown;
+}
+#rem_unit_inner{
+    background-color: blue;
+    font-size: 2rem;  /*If not working please uncomments body code*/
+    height: 50%;
+    width: 60%;
+}
+/* Viewport Width (vw) and Viewport Height (vh) */
+#viewport{
+    background-color: red;
+    height: 50vh;
+    width: 50vw;
 }
