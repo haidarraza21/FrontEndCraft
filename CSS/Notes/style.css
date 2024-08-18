@@ -222,3 +222,29 @@ button{
 #display_none2{
     display: none;
 }
+
+/* Relative Unit Percentage */
+#percentage_unit_upper{
+    height: 200px;
+    width: 400px;
+    background-color: brown;
+}
+#percentage_unit_inner{
+    background-color: blue;
+    height: 50%;
+    width: 60%;
+}
+
+/* Relative Unit em*/
+#em_unit_upper{
+    font-size: 15px;
+    height: 200px;
+    width: 400px;
+    background-color: brown;
+}
+#em_unit_inner{
+    font-size: 2em;
+    background-color: blue;
+    height: 50%;
+    width: 60%;
+}
