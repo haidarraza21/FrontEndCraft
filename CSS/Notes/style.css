@@ -192,3 +192,33 @@ button{
     border-radius: 10px;
     display: inline;
 }
+
+/* Display Inlin-Block */
+
+.display_inline-block{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    color: brown;
+    margin: 10px;
+    background-color: yellowgreen;
+    border: 2px solid red;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* Display None */
+
+.display_none{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    color: black;
+    margin: 10px;
+    background-color: burlywood;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#display_none2{
+    display: none;
+}
