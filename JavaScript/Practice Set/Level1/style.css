@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+#click{
+    font-size: 20px;
+    height: 30px;
+    width: 90px;
+    color: white;
+    background-color: aquamarine;
+    border: 2px solid red;
+    border-radius: 9px;
+    margin: 100px;
+}
+.button1{
+    font-size: 20px;
+    height: 30px;
+    width: 90px;
+    color: white;
+    background-color: rgb(255, 127, 144);
+    border: 2px solid rgb(14, 13, 13);
+    border-radius: 9px;
+    margin: 100px;
+}
+#button2{
+    font-size: 20px;
+    height: 30px;
+    width: 90px;
+    color: white;
+    background-color: yellowgreen;
+    border: 2px solid red;
+    border-radius: 9px;
+    margin: 100px;
+}
+#paragraph{
+    font-size: 20px;
+    color: beige;
+    background-color: dimgray;
+}
+#heart{
+    color: red;
+}
+#container{
+    height: 100px;
+    width: 1000px;
+    border: 2px solid black;
+}
+#bag_button{
+    height: 50px;
+    width: 161px;
+    font-size: 20px;
+    background-color: rgb(202, 248, 156);
+    margin: 30px;
+    border-radius: 28px;
+    border-style: none;
+}
+#wishlist_button{
+    height: 50px;
+    width: 240px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 5px;
+    border-radius: 10px;
+}

@@ -1,11 +1,38 @@
+<!--Problems:
+1. Create a button with text click.
+2. Create 2 button with class and id.
+3. Create a paragraph
+4. Add color to two buttons
+5. App proper html stucture 
+6. Change page titel
+7. Try to copy the given degine on the button 
+8. Add script element to page show welcome alert
+9. Add onclick alert on Add to Bag and Wishlist   -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JavaScript with HTML & CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <button id="click" onclick="alert('Clicked!')" >Click Me</button> 
+    <hr>
+
+    <button class="button1">Button1</button>
+    <button id="button2">Button2</button>
+
+    <hr>
+    <p id="paragraph">A paragraph is a distinct section of writing that deals with a specific idea or topic. It is typically composed of a group of sentences organized around a central theme or point. Paragraphs help to structure text and make it more readable by breaking it into manageable sections.</p>
+    <hr>
+    <div id="container">
+        <button onclick="alert('Successfully Added')" id="bag_button">Add to Bag</button>
+        <button onclick="alert('Wishlist Added')" id="wishlist_button"><i id="heart" class="fa-solid fa-heart"></i> Wishlist</button>
+    </div>
     
 </body>
+<samp src="script.js"></samp>
 </html>
