@@ -294,13 +294,117 @@ button{
     top: 20px;
     left: 100px;
 }
-#absolute{
+/* #absolute{
     position: absolute;
     top: 8000px;
     left: 150px;
-}
+} */
 #fixed{
     position: fixed;
    top: 8080px;
     left: 10px;
 }
+
+/*Float property*/
+
+#parent_float{
+    height: 200px;
+    width: 500px;
+    border: 2px solid red;
+}
+.child_float{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+#Child_float1{
+    background-color: aquamarine;
+    float: left;  
+}
+#Child_float2{
+    background-color: blanchedalmond;
+    float: right;  
+}
+
+/*Flex direction row */
+#parent_flex{
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex_direction_row{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 10px;
+}
+
+/*Flex direction row-reverse */
+#parent_flex_row-reverse{
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.flex_direction_row-reverse{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(4, 255, 0);
+    margin: 10px;
+}
+
+/*Flex direction column */
+#parent_flex_column{
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex_direction_colum{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(229, 255, 0);
+    margin: 10px;
+}
+
+/*Flex direction column-reverse */
+#parent_flexcolumn-reverse{
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.flex_direction_column-reverse{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(241, 82, 159);
+    margin: 10px;
+}
+
+
+
