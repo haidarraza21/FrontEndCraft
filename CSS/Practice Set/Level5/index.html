@@ -1,0 +1,61 @@
+<!--problems:
+ Create a website with header, footer, and a content area.
+       -Header
+        1. Create a nav bar links.
+       -Main
+        1. Create a div with width and height, BAckgroung green and boader radius 50%.
+        2. Create Three divs with container height and width 100px. Display inline block.
+        3. Set the correct postion property for thee single div elemenet to ensurw it remains at the right side of the page and does not shift when scrolling.
+        4. Use z-index to place the div on top of another div.
+       -Footer
+        1. Add text in footer.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display and Position</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="nav_bar">
+                <a href="#">Logo</a>
+                <ul id="link">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <a href="#">APPLY NOW</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="div_img"></div>
+        <hr>
+        <div class="dislay_inline-block">Box1</div>
+        <div class="dislay_inline-block">Box2</div>
+        <div class="dislay_inline-block">Box3</div>
+        <hr>
+
+        <div id="position">Haidar</div>
+
+        <hr>
+
+        <div class="index">Box1</div>
+        <div class="index" id="z-index">Box2</div>
+        <div class="index">Box3</div>
+
+    </main>
+    <footer>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusantium porro placeat nemo obcaecati
+            soluta sapiente autem ab est suscipit. Asperiores quis incidunt reprehenderit alias tempore soluta quasi,
+            quos id!</p>
+    </footer>
+
+</body>
+
+</html>

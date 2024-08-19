@@ -1,0 +1,84 @@
+/* problems:
+ Create a website with header, footer, and a content area.
+       -Header
+        1. Create a nav bar links.
+       -Main
+        1. Create a div with width and height, BAckgroung green and boader radius 50%.
+        2. Create Three divs with container height and width 100px. Display inline block.
+        3. Set the correct postion property for thee single div elemenet to ensurw it remains at the right side of the page and does not shift when scrolling.
+        4. Use z-index to place the div on top of another div.
+       -Footer
+        1. Add text in footer. */
+
+        * {
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #nav_bar {
+            color: red;
+            height: 64px;
+            width: 100vw;
+            background-color: blue;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-decoration: none;
+            text-align: center;
+            /* margin: 40px 20px;
+            padding: 0; */
+        }
+        
+        #link {
+            width: 800px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            list-style: none;
+            margin: 20px 20px;
+            padding: 0;
+        
+        }
+        
+        #nav_bar a {
+            color: white;
+            margin: 20px 20px;
+        }
+        
+        #div_img {
+            margin: 100px 300px;
+            height: 113px;
+            width: 113px;
+            background-color: aqua;
+            /* background-size: contain;
+            background-repeat: no-repeat;
+            background-image: url(images.jpg); */
+            border-radius: 50px;
+        }
+        
+        .dislay_inline-block {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: blueviolet;
+            display: inline-block;
+        }
+        
+        #position {
+            height: 100px;
+            width: 100px;
+            background-color: aquamarine;
+            position: fixed;
+            top: 900px;
+            right: 100px;
+        }
+
+        .index{
+            height: 100px;
+            width: 100px;
+            background-color: darkslategray;
+        }
+        #z-index{
+            z-index: 2;
+        }
