@@ -1,0 +1,41 @@
+/* Problems:
+1. Create the same nav bar created in the last practice set but do the scaping usin flexbox.
+2. Use flexbox to create an image inside a div.
+3. Create a div with three boxes where two boxes have fixed size, but the third box grow and shinks 
+   with conatiner size.
+4. Create a div of 50px by 50px with color green. It shoud respond to following conditions:
+   Keep color green under 300px of view port size
+   Change color to red from 300px to 400px
+   Change color to blue after 400px */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+#nav_bar{
+    height: 100px;
+    width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px;
+    padding: 15px;
+    
+}
+#nav_bar a{
+    font-size: 18px;
+    color:blue;
+}
+#nav_link{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#nav_link a, li{
+    font-size: 18px;
+    color:blue;
+    list-style: none;
+}
