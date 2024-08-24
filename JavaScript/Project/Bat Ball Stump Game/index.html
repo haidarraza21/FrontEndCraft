@@ -6,22 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>cricket Game</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
   
 </head>
 
 <body>
   <h1>Bat Ball Stump Game</h1>
   <button onclick="
-    let randomNumer = Math.random() * 3;
-    let computerChoice;
-    if(randomNumer >0 && randomNumer <=1){
-        computerChoice = 'Bat';
-    } else if(randomNumer >1 && randomNumer <=2){
-        computerChoice = 'Ball';
-    } else{
-        computerChoice = 'Stump';
-    }
-
+    computerChoice = generateComputerChoice();
     let resultMsg;
 
     if(computerChoice === 'Ball'){
@@ -37,20 +29,8 @@
 "><img src="image/bat.png" alt=""></button>
   <button onclick="
 
-    randomNumer = Math.random() * 3;
+   computerChoice = generateComputerChoice();
 
-
-    if(randomNumer >0 && randomNumer <=1){
-        computerChoice ='Bat';
-    } else if (randomNumer >1 && randomNumer <=2){
-        computerChoice ='Ball';
-    } else{
-        computerChoice ='Stump';
-    }
-
- 
-    
-  
     if(computerChoice === 'Ball'){
         resultMsg = `It's a tie!`;
     } else if (computerChoice === 'Bat'){
@@ -63,15 +43,7 @@
 
 "><img src="image/ball1.png" alt=""></button>
   <button onclick="
-     randomNumer = Math.random() * 3;
-    
-    if(randomNumer >0 && randomNumer <=1){
-        computerChoice = 'Bat';
-    } else if(randomNumer >1 && randomNumer <=2){
-        computerChoice = 'Ball';
-    } else{
-        computerChoice = 'Stump';
-    }
+  computerChoice = generateComputerChoice();
 
 
     if(computerChoice === 'Ball'){
