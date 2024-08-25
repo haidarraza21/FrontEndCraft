@@ -52,4 +52,5 @@ console.log(result1);
 Conditions: The if condition is evaluated as a boolean (true or false).
 Code Execution: Only one block of code is executed based on the first true condition.
 Nestable: You can nest multiple if...else statements for more complex logic.
-This is a fundamental part of JavaScript programming, allowing you to control the flow of your code based on conditions. */
+This is a fundamental part of JavaScript programming, allowing you to control the flow of your code based on conditions.
+node /workspaces/FrontEndCraft/JavaScript/Notes/ifElse.js */
