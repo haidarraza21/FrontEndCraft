@@ -3,7 +3,13 @@ let score ={
     lost: 0,
     tie : 0,
 
+    displayScore : function(){
+        return ` Win:${score.win},   Lost:${score.lost},   Tie:${score.tie}`
+
+    }
+
 };
+
 
 function generateComputerChoice(){
     let computerChoice;
@@ -61,6 +67,6 @@ function showResult(userMove, computerMove, result){
         
     ${result}
     
-    Win:${score.win},   Lost:${score.lost},   Tie:${score.tie}`)
+    ${score.displayScore()}`);
 
 }
