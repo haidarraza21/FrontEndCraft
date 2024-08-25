@@ -66,3 +66,6 @@ if (age >= 18){  //use the graeter than equale to compare the age of voter
     result = "You are not eligible to vote!"
 }
 console.log(result);
+
+
+  
