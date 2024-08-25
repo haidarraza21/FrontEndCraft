@@ -14,49 +14,21 @@
   <h1>Bat Ball Stump Game</h1>
   <button onclick="
     computerChoice = generateComputerChoice();
-    let resultMsg;
-
-    if(computerChoice === 'Ball'){
-        resultMsg = 'User won!';
-    } else if(computerChoice === 'Bat'){
-        resultMsg = `It's a tie!`
-    } else{
-        resultMsg = `Computer has won!`;
-    }
-    
-    alert(`You have choose Bat. Computer choice is ${computerChoice} and ${resultMsg}`)
-   
-"><img src="image/bat.png" alt=""></button>
+    let resultMsg = getResult('Bat', computerChoice)
+    showResult ('Bat', computerChoice, resultMsg)
+   "><img src="image/bat.png" alt=""></button>
   <button onclick="
 
    computerChoice = generateComputerChoice();
-
-    if(computerChoice === 'Ball'){
-        resultMsg = `It's a tie!`;
-    } else if (computerChoice === 'Bat'){
-        resultMsg = `Computer has won!`;
-    } else {
-        resultMsg = `User won!`;
-    }
-
-    alert(`You have choose Ball. Computer choice is ${computerChoice} and ${resultMsg}`)
-
-"><img src="image/ball1.png" alt=""></button>
+   resultMsg = getResult('Ball', computerChoice)
+   showResult ('Ball', computerChoice, resultMsg)
+   "><img src="image/ball1.png" alt=""></button>
   <button onclick="
-  computerChoice = generateComputerChoice();
-
-
-    if(computerChoice === 'Ball'){
-        resultMsg = `User won!`;
-    } else if(computerChoice === 'Bat'){
-        resultMsg = `Computer has won!`;
-    } else{
-        resultMsg = `It's a tie!`;
-    }
-    
-    alert(`You have choose Stump. Computer choice is ${computerChoice} and ${resultMsg}`)
-   
-"><img src="image/stump.png" alt=""></button>
+   computerChoice = generateComputerChoice();
+   resultMsg = getResult('Stump', computerChoice)
+   showResult ('Stump', computerChoice, resultMsg)
+   "><img src="image/stump.png" alt="">
+  </button>
 
   <hr>
 
