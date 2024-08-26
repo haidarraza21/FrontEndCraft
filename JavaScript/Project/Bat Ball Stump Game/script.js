@@ -1,14 +1,18 @@
-let score ={
-    win : 0,
-    lost: 0,
-    tie : 0,
-
-    displayScore : function(){
-        return ` Win:${score.win},   Lost:${score.lost},   Tie:${score.tie}`
-
-    }
-
+let scorStr = localStorage.getItem('Score');
+let score;
+if(scorStr === undefined){
+    score = JSON.parse(scorStr)
+} else {
+    score ={
+        win : 0,
+        lost: 0,
+        tie : 0,
+}
 };
+score.displayScore = function(){
+    return ` Win:${score.win},   Lost:${score.lost},   Tie:${score.tie}`
+
+}
 
 
 function generateComputerChoice(){
@@ -62,7 +66,7 @@ function getResult(userMove, computerMove){
 }
 
 function showResult(userMove, computerMove, result){
-    //console.log(score);
+    localStorage.setItem('Score', JSON.stringify(score))
     alert(`You have choose ${userMove}. Computer choice is ${computerMove} 
         
     ${result}
