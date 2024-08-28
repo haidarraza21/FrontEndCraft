@@ -1,0 +1,50 @@
+#convert {
+    background-color: #af8a10;
+}
+
+#convert:hover {
+    background-color: #16cade;
+}
+
+#clear {
+    background-color: #0bdcc7;
+}
+
+#clear:hover {
+    background-color: #066570;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: url('images/bg.jpg');
+    background-size: 100%auto;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: rgb(9, 17, 182);
+}
+
+
+input {
+    display: block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 2em;
+    position: relative;
+    color: black;
+    font-family: sans-serif;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(177, 238, 242);
+}
+
+
+button {
+    padding: 10px;
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+}
