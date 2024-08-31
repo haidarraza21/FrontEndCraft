@@ -1,18 +1,23 @@
 let scorStr = localStorage.getItem('Score');
-let score;
-if(scorStr === undefined){
-    score = JSON.parse(scorStr)
-} else {
-    score ={
+let score ;
+resetScore(scorStr);
+function resetScore (scorStr){
+    score = scorStr ? JSON.parse(scorStr) :{
         win : 0,
         lost: 0,
-        tie : 0,
-}
-};
-score.displayScore = function(){
-    return ` Win:${score.win},   Lost:${score.lost},   Tie:${score.tie}`
+        tie : 0, 
+    };
 
+    score.displayScore = function(){
+        return ` Win:${score.win},   Lost:${score.lost},   Tie:${score.tie}`
+    
+    };
 }
+
+// score.displayScore = function(){
+//     return ` Win:${score.win},   Lost:${score.lost},   Tie:${score.tie}`
+
+// }
 
 
 function generateComputerChoice(){
