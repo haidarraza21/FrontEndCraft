@@ -7,7 +7,7 @@
   <title>cricket Game</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
-  
+
 </head>
 
 <body>
@@ -27,7 +27,7 @@
    "><img src="image/ball1.png" alt="">
   </button>
 
-  
+
   <button onclick="
    computerChoice = generateComputerChoice();
    resultMsg = getResult('Stump', computerChoice)
@@ -46,88 +46,6 @@
   resetScore();
   ">Reset</button>
 
-  <hr>
-
-  <div id="table-container">
-    <div class="table">
-      <table>
-        <caption>For Bat</caption>
-        <tr>
-          <th>You</th>
-          <th>Computer</th>
-          <th>Result</th>
-        </tr>
-        <tr>
-          <td>Bat</td>
-          <td>Ball</td>
-          <td>User won!</td>
-        </tr>
-        <tr>
-          <td>Bat</td>
-          <td>Stump</td>
-          <td>Computer has won!</td>
-        </tr>
-        <tr>
-          <td>Bat</td>
-          <td>Bat</td>
-          <td>It's a tie!</td>
-        </tr>
-      </table>
-    </div>
-
-    <div class="table">
-      <table>
-        <caption>For Ball</caption>
-        <tr>
-          <th>You</th>
-          <th>Computer</th>
-          <th>Result</th>
-        </tr>
-        <tr>
-          <td>Ball</td>
-          <td>Stump</td>
-          <td>User won!</td>
-        </tr>
-        <tr>
-          <td>Ball</td>
-          <td>Ball</td>
-          <td>Computer has won!</td>
-        </tr>
-        <tr>
-          <td>Ball</td>
-          <td>Bat</td>
-          <td>It's a tie!</td>
-        </tr>
-      </table>
-    </div>
-
-    <div class="table">
-      <table>
-        <caption>For Stupm</caption>
-        <tr>
-          <th>You</th>
-          <th>Computer</th>
-          <th>Result</th>
-        </tr>
-        <tr>
-          <td>Stupm</td>
-          <td>Stump</td>
-          <td>It's a tie!</td>
-        </tr>
-        <tr>
-          <td>Stupm</td>
-          <td>Ball</td>
-          <td>You Win!</td>
-        </tr>
-        <tr>
-          <td>Stupm</td>
-          <td>Bat</td>
-          <td>Computer has won!</td>
-        </tr>
-      </table>
-    </div>
-
-  </div>
 
 </body>
 

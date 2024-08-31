@@ -1,31 +1,77 @@
+/* style.css */
 body {
-    text-align: center;
-  }
-
-  table,
-  th,
-  td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    text-align: left;
-  }
-
-  #table-container {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  button img {
-    height: 50px;
-    cursor: pointer;
-  }
-
-#reset{
-  background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
-  border-radius: 40px;
-  box-sizing: border-box;
-  color: white;
-  width: 100px;
-  height: 35px;
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(to bottom, #90CAF9, #64B5F6);
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
+h1 {
+  font-family: 'Bungee', cursive;
+  font-size: 2.5em;
+  color: #FFFFFF;
+  margin: 20px 0;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+button {
+  background-color: #FF6F61;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: #FF8F71;
+}
+
+button img {
+  width: 50px;
+  height: 50px;
+}
+
+#user-move,
+#computer-move {
+  font-size: 1.5em;
+  color: #FFFFFF;
+  margin: 10px 0;
+}
+
+#result {
+  font-size: 2em;
+  color: #FFEB3B;
+  /* New color for the result text */
+  font-weight: bold;
+  margin: 15px 0;
+  text-shadow: 1px 1px 3px #000000;
+  /* Add some depth with shadow */
+}
+
+#score {
+  font-size: 1.5em;
+  color: #FFFFFF;
+  margin: 10px 0;
+}
+
+
+
+
+#reset {
+  background-color: #42A5F5;
+  color: #FFFFFF;
+  font-size: 1em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+#reset:hover {
+  background-color: #64B5F6;
+}
