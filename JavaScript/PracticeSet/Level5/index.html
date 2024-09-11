@@ -1,0 +1,43 @@
+<!--Display good morning, afrernoon and night based on current hours
+Add the name to output too
+Create a Button which shows the number how many times it has been pressed 
+Also it has different colors for when it has been pressed odd or even times.
+The click count shoud also survive browser refresh.-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON< Local Storage, Date & DOM</title>
+            <style>
+                #click {
+                    height: 50px;
+                    width: 100px;
+                    border-radius: 5px;
+                    border-style: none;
+                    font-size: 18px;
+                }
+
+                .js-even {
+                    background-color: chocolate;
+                }
+
+                .js-odd {
+                    background-color: greenyellow;
+                }
+            </style>
+</head>
+
+<body>
+    <h3 id="wish"></h3>
+
+    <button id="click" onclick="buttonPressed()"> 0 </button>
+
+    <script src="script.js"></script>
+    
+
+</body>
+
+</html>
