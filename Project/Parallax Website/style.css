@@ -1,0 +1,85 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.pimg1 {
+  background-image: url(MainBuildingSGVU.jpg);
+  min-height: 100%;
+}
+.pimg2 {
+  background-image: url(AcharyaPurshottamBuilding.jpg);
+  min-height: 400px;
+}
+.pimg3 {
+  background-image: url(SGVUTemple.jpg);
+  min-height: 400px;
+}
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ptext {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  left: 5%;
+}
+.textBg {
+  background: #313534;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+  text-align: justify;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+  text-align: justify;
+}
+.section-dark1 ul {
+  background-color: #282e34;
+  color: #ddd;
+  margin-left: 50px;
+    font-size: 15px;
+    line-height: 30pxp;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+.section-dark1 h2 ,.section-light h2, .section-dark{
+  text-align: center;
+  
+}
+.section-dark1{
+  background-color: #282e34;
+  color: #ddd;
+
+}
+.section-dark p {
+  text-align: justify;
+}
